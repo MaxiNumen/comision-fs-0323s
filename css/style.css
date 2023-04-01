@@ -39,4 +39,25 @@ header{
     font-size: 2em;
 }
 
+.section-dos{
+    width: 10rem;
+    height: 10rem;
+    background-color: beige;
+    overflow: auto;
+}
+h1{
+    font-size: 40rem;
+    text-shadow: -10px 10px 5px rgb(213, 66, 66);
+}
 
+/**orden
+
+1- posicionamiento
+2- ancho y largo
+3- medidas de caja
+4- colores
+5- 
+
+
+
+*/
