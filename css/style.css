@@ -1,3 +1,42 @@
-h1{
-    color: blue;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
+/*
+rem medida relativa
+em = 
+*/
+body{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    /* background-color: bisque; */
+    background-image: linear-gradient( #cf9df078, #b58aee, #9579ec, #6b6aec, #125eeb);
+    width:100%;
+}
+
+.section-principal{
+    font-size: 40px;
+    width: 100%;
+    height:700px;
+    /* background-color: lightslategray; */
+    background-image: url("../assets/img/boxed-water-is-better-rkH3k-_rwvw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 25%;
+}
+
+.section-principal h1{
+    font-size: 1em;
+}
+
+.section-principal h2{
+    font-size: 2em;
+}
+
+
